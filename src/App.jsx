@@ -6,6 +6,7 @@ import AppHeader from './components/AppHeader'
 import AppMain from './components/AppMain'
 import AppListMain from './components/AppListMain'
 import AppFooterList from './components/AppFooterList'
+import AppFooterBottom from './components/AppFooterBottom'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <AppMain />
     <AppListMain />
     <AppFooterList />
+    <AppFooterBottom />
     </>
   )
 }

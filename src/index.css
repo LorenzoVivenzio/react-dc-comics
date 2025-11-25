@@ -45,6 +45,12 @@ a{
 .text-gray{
     color: gray;
 }
+.bg-gray{
+    background-color: rgb(58, 57, 57);
+}
+.p-20px{
+    padding: 20px;
+}
 
 
 ul li{
