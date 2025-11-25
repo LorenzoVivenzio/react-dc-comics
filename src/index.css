@@ -1,1 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{ 
+    text-decoration: none;
+    color: inherit;
+}
+.d-flex{
+    display: flex;
+}
+.cont{
+    width: 70%;
+    margin: 0 auto;
+}
+.justify-content-beetwen{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
 
+.header-menu ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.header-menu li{
+    padding: 10px;
+}
