@@ -20,14 +20,48 @@ a{
 .justify-content-beetwen{
     justify-content: space-between;
 }
+.justify-content-center{
+    justify-content: center;
+}
 .align-center{
     align-items: center;
 }
 
-.header-menu ul li{
+.mt-50{
+    margin-top: 50px;
+}
+.text-white{
+    color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-blu{
+    background-color: dodgerblue;
+}
+.p-40px{
+    padding: 40px;
+}
+
+
+
+ ul li{
     list-style: none;
     text-decoration: none;
 }
-.header-menu li{
+li{
     padding: 10px;
+}
+.logo-img{
+    padding-top: 20px;
+    width: 70px;
+}
+.list-main img{
+    width: 50px;
+}
+.list-main li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
