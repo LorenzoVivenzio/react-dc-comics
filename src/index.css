@@ -42,10 +42,12 @@ a{
 .p-40px{
     padding: 40px;
 }
+.text-gray{
+    color: gray;
+}
 
 
-
- ul li{
+ul li{
     list-style: none;
     text-decoration: none;
 }
@@ -60,8 +62,14 @@ li{
     width: 50px;
 }
 .list-main li{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
+}
+footer{
+    background-image: url(../public/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

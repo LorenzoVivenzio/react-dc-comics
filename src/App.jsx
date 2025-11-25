@@ -5,6 +5,7 @@ import './App.css'
 import AppHeader from '../components/AppHeader'
 import AppMain from '../components/AppMain'
 import AppListMain from '../components/AppListMain'
+import AppFooterList from '../components/AppFooterList'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <AppHeader />
     <AppMain />
     <AppListMain />
+    <AppFooterList />
     </>
   )
 }
