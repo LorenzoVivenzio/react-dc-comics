@@ -7,7 +7,7 @@ import AppMain from './components/AppMain'
 import AppListMain from './components/AppListMain'
 import AppFooterList from './components/AppFooterList'
 import AppFooterBottom from './components/AppFooterBottom'
-import { UnderMain } from './components/UnderMain'
+import  UnderMain  from './components/UnderMain'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <body>
         <AppHeader />
         <AppMain />
-       <UnderMain />
+        <UnderMain />
         <AppListMain />
         <AppFooterList />
         <AppFooterBottom />

@@ -1,101 +1,137 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     max-width: 100%;
 }
-a{ 
+
+a {
     text-decoration: none;
     color: inherit;
 }
-body{
+
+body {
     font-family: "Open Sans", sans-serif;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
-.cont{
+
+.cont {
     width: 70%;
     margin: 0 auto;
 }
-.justify-content-beetwen{
+
+.justify-content-beetwen {
     justify-content: space-between;
 }
-.justify-content-center{
+
+.justify-content-center {
     justify-content: center;
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
 
-.mt-50{
+.mt-50 {
     margin-top: 30px;
 }
-.text-white{
+
+.text-white {
     color: white;
 }
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
-.bg-blu{
+
+.bg-blu {
     background-color: dodgerblue;
 }
-.p-40px{
+
+.p-40px {
     padding: 40px;
 }
-.text-gray{
+
+.text-gray {
     color: gray;
 }
-.bg-gray{
+
+.bg-gray {
     background-color: rgb(58, 57, 57);
 }
-.p-20px{
+
+.p-20px {
     padding: 20px;
 }
 
 
-ul li{
+ul li {
     list-style: none;
     text-decoration: none;
 }
-li{
+
+li {
     padding: 10px;
 }
-.logo-img{
+.w-10{
+    width: 10%;
+}
+
+
+
+
+
+.logo-img {
     padding-top: 20px;
     width: 70px;
 }
-.list-main img{
+
+.list-main img {
     width: 50px;
 }
-.list-main li{
+
+.list-main li {
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
 }
-footer{
-    background-image: url(../public/img/footer-bg.jpg);
+
+footer {
+    background-image:url(../public/img/dc-logo-bg.png) ,url(../public/img/footer-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 800px, cover;
+    background-position: right;
 }
-.main-top{
+
+.main-top {
     background-image: url(../public/img/jumbotron.jpg);
     height: 300px;
-    background-size:cover ;
+    background-size: cover;
     background-repeat: no-repeat;
-    
-    
+
+
 }
-.col{
+
+.col {
     width: calc(100% / 6);
     padding: 10px;
 }
-.wrap{
+
+.col img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.wrap {
     flex-wrap: wrap;
 }
