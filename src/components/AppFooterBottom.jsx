@@ -1,15 +1,16 @@
+import style from "./AppFooterbottom.module.css"
 export default function AppFooterBottom() {
     return (
         <section className="bg-gray">
 
             <div className="cont d-flex justify-content-beetwen align-center p-20px">
-                <div className="btn">
-                    <a href="">SIGN UP NOW</a>
+                <div className={style.btn} >
+                    <a href="">SIGN-UP NOW!</a>
                 </div>
 
                 <div>
                     <ul className="d-flex">
-                        <li><a href="">FOLLOW US</a></li>
+                        <li className={style.follow}><a href="">FOLLOW US</a></li>
                         <li><img src="public/img/footer-facebook.png" alt="" /></li>
                         <li><img src="public/img/footer-periscope.png" alt="" /></li>
                         <li><img src="public/img/footer-pinterest.png" alt="" /></li>

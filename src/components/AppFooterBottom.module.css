@@ -1,0 +1,11 @@
+.btn{
+    color: white;
+    border: 3px solid lightskyblue;
+    padding: 20px;
+}
+
+.follow{
+    color: lightskyblue;
+    font-size: 1.5rem;
+    padding: 10px;
+}
