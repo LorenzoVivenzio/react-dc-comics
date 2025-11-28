@@ -12,14 +12,13 @@ import  UnderMain  from './components/UnderMain'
 function App() {
   return (
     <>
-      <body>
+ 
         <AppHeader />
         <AppMain />
         <UnderMain />
         <AppListMain />
         <AppFooterList />
         <AppFooterBottom />
-      </body>
 
     </>
   )

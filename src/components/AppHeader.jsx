@@ -20,8 +20,8 @@ export default function AppHeader() {
             </div>
             <div className="header-menu">
                 <ul className="d-flex">
-                    {arrayNav.map((curArrayNav =>
-                        <li>{curArrayNav} </li>
+                    {arrayNav.map((curArrayNav=>
+                        <li >{curArrayNav} </li>
                     ))}
                 </ul>
             </div>
